@@ -4,14 +4,14 @@ Ruby version: 2.6.3
 Ruby on rails version: 6.1.3
 
 Noted: 
-1.This document is relatively rough.
-2.I didn't write the testing codes because of the time, but i tested the apis using postman.
-3.Maybe the controllers are so heavy, but they can be more fast i think.
-4.I config the quantites of books that one user can borrow and the fees that one book was lent per day in the   /config/application.yml
-5.I didn't write the CRUD of users, books. i just wrote the apis according to the test requirement.
-6.The account will be created after the user is created automatically.
-7.You can run rails db:seed in the terminal that mock the testing datas.
-8.The relations between the tables, as follows:
+1. This document is relatively rough.
+2. I didn't write the testing codes because of the time, but i tested the apis using postman.
+3. Maybe the controllers are so heavy, but they can be more fast i think.
+4. I config the quantites of books that one user can borrow and the fees that one book was lent per day in the   /config/application.yml
+5. I didn't write the CRUD of users, books. i just wrote the apis according to the test requirement.
+6. The account will be created after the user is created automatically.
+7. You can run rails db:seed in the terminal that mock the testing datas.
+8. The relations between the tables, as follows:
   user has_one account
   account belongs_to user
   book has_many incomes
